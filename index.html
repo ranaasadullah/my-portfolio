@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/jpeg" href="images/favicon.png">
+  <title>Asad Ullah | Web Developer Portfolio</title>
+  <meta name="description" content="Personal portfolio of Rana Asad Ullah, a computer science student building responsive websites with HTML and CSS.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar Section -->
+  <header class="site-header">
+    <nav class="nav" aria-label="Main navigation">
+      <a class="nav-brand" href="#home">Rana Asad Ullah</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span></label>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="hero-hello">Hi, I'm</p>
+          <h1 class="hero-name">Asad Ullah</h1>
+          <p class="hero-tagline">I build clean, responsive websites from scratch.</p>
+          <p class="hero-intro">I'm a computer science student who enjoys turning ideas into fast, readable web pages. Everything here is hand-written HTML and CSS.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View my projects</a>
+            <a class="btn btn-ghost" href="#contact">Contact me</a>
+          </div>
+        </div>
+        <div class="hero-photo-wrap">
+          <div class="hero-photo" role="img" aria-label="Profile Picture"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container narrow">
+        <h2 class="section-title">About me</h2>
+        <p>I'm a student developer who likes making things people can actually use. I started with HTML and CSS, and I've been adding JavaScript, Reactjs and Nodejs to my toolkit since.</p>
+        <div class="about-grid">
+          <div class="info-block">
+            <h3>Academic background</h3>
+            <p>Studying Computer Science, with coursework in programming fundamentals, data structures and web technologies.</p>
+          </div>
+          <div class="info-block">
+            <h3>Career interests</h3>
+            <p>Front-end development, UI design and full-stack web applications. I want to build products that are accessible and quick on any device.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <ul class="skills-grid">
+          <li class="skill-card">
+            <span class="skill-icon">&lt;/&gt;</span>
+            <h3>HTML</h3>
+            <div class="bar"><span style="width: 90%"></span></div>
+            <p class="skill-level">Advanced</p>
+          </li>
+          <li class="skill-card">
+            <span class="skill-icon">{ }</span>
+            <h3>CSS</h3>
+            <div class="bar"><span style="width: 85%"></span></div>
+            <p class="skill-level">Advanced</p>
+          </li>
+          <li class="skill-card">
+            <span class="skill-icon">JS</span>
+            <h3>JavaScript</h3>
+            <div class="bar"><span style="width: 65%"></span></div>
+            <p class="skill-level">Intermediate</p>
+          </li>
+          <li class="skill-card">
+            <span class="skill-icon"><i class="fa-brands fa-react"></i></span>
+            <h3>React JS</h3>
+            <div class="bar"><span style="width: 70%"></span></div>
+            <p class="skill-level">Intermediate</p>
+          </li>
+          <li class="skill-card">
+            <span class="skill-icon"><i class="fa-brands fa-tailwind-css"></i></span>
+            <h3>Tailwind CSS</h3>
+            <div class="bar"><span style="width: 70%"></span></div>
+            <p class="skill-level">Intermediate</p>
+          </li>
+          <li class="skill-card">
+            <span class="skill-icon"><i class="fa-brands fa-node-js"></i></span>
+            <h3>Node JS</h3>
+            <div class="bar"><span style="width: 60%"></span></div>
+            <p class="skill-level">Intermediate</p>
+          </li>
+          <li class="skill-card">
+            <span class="skill-icon"><i class="fa-solid fa-database"></i></span>
+            <h3>MongoDB</h3>
+            <div class="bar"><span style="width: 70%"></span></div>
+            <p class="skill-level">Intermediate</p>
+          </li>
+          <li class="skill-card">
+            <span class="skill-icon">Git</span>
+            <h3>Git / GitHub</h3>
+            <div class="bar"><span style="width: 70%"></span></div>
+            <p class="skill-level">Intermediate</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Eductaion Section -->
+    <section id="education" class="section">
+      <div class="container narrow">
+        <h2 class="section-title">Education</h2>
+        <article class="edu-card">
+          <h3>Bachelor of Science in Computer Science</h3>
+          <p class="edu-meta">Virtual University &middot; 2021 &ndash; 2025</p>
+          <p><b>Relevant coursework:</b> Programming Fundamentals, Object-Oriented Programming, Data Structures, Database Systems, Web Technologies.</p>
+        </article>
+        <br>
+        <article class="edu-card">
+          <h3>FSc in Pre-Engineering</h3>
+          <p class="edu-meta">Punjab Group of Colleges &middot; 2018 &ndash; 2020</p>
+          <p><b>Relevant coursework:</b> Mathematics, Physics, Chemistry, Analytical Skills, Problem Solving.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Projects (Demo Pages)</h2>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-thumb thumb-1" role="img" aria-label="Screenshot of the Task Manager project"></div>
+            <div class="project-body">
+              <h3>Task Manager</h3>
+              <p>A simple to-do list interface with categories and a clean card layout.</p>
+              <p class="tags">HTML5, CSS3, JavaScript, Reactjs.</p>
+              <div class="project-links">
+                <a href="#">GitHub</a>
+                <a href="#">Live demo</a>
+              </div>
+            </div>
+          </article>
+          
+            <article class="project-card">
+            <div class="project-thumb thumb-2" role="img" aria-label="Screenshot of the My Portfolio Page project"></div>
+            <div class="project-body">
+              <h3>My Portfolio</h3>
+              <p>A modern, responsive portfolio website showcasing my skills, projects, education, and experience as a web developer.</p>
+              <p class="tags">Reactjs, Tailwind Css</p>
+              <div class="project-links">
+                <a href="#">GitHub</a>
+                <a href="#">Live demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-thumb thumb-3" role="img" aria-label="Screenshot of the Weather Dashboard project"></div>
+            <div class="project-body">
+              <h3>Weather Dashboard</h3>
+              <p>A responsive dashboard that shows forecasts in a grid that adapts to any screen.</p>
+              <p class="tags">HTML5, CSS3</p>
+              <div class="project-links">
+                <a href="#">GitHub</a>
+                <a href="#">Live demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div>
+          <h2 class="section-title">Contact</h2>
+          <p>Have a project, internship or question? Send a message and I'll reply as soon as I can.</p>
+          <ul class="contact-list">
+            <li><strong>Email</strong> <a href="mailto:au491021@gmail.com">au491021@gmail.com</a></li>
+            <li><strong>Phone</strong> <a href="tel:+923124965229">+92 312 4965229</a></li>
+            <li><strong>Location</strong> Lahore, Pakistan</li>
+          </ul>
+          <div class="social-links">
+            <a href="https://github.com/ranaasadullah" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/rana-asad-ullah/" target="_blank">LinkedIn</a>
+            <a href="mailto:au491021@gmail.com" target="_blank">Email</a>
+          </div>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your full name" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" placeholder="What is this about?">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer Section -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+
+      <div class="footer-top">
+      <ul class="footer-social" aria-label="Social links">
+        <a href="https://www.linkedin.com/in/rana-asad-ullah/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.instagram.com/ranaasadu_7/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://github.com/ranaasadullah" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://wa.me/923124965229?text=Hi%20Asad%2C%20I%20saw%20your%20portfolio." target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+          <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+        </a>
+    </div>
+    
+      <div class="footer-bottom">
+      <p class="footer-copy">&copy; 2026 Rana Asad Ullah. All rights reserved.</p>
+      <nav aria-label="Footer navigation">
+        <ul class="footer-nav">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    </div>
+  </footer>
+
+</body>
+</html>
