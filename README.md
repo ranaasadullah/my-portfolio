@@ -96,11 +96,11 @@ No installation or build step is needed.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/rana-asad/portfolio.git
+   [git clone https://github.com/rana-asad/portfolio.git](https://github.com/ranaasadullah/my-portfolio.git)
    ```
 2. Open the project folder:
    ```bash
-   cd portfolio
+   cd my-portfolio
    ```
 3. Open `index.html` in any modern web browser (Chrome, Edge, Firefox or Safari), either by double-clicking the file or by right-clicking it and choosing **Open with** your browser.
 
