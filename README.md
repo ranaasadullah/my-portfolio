@@ -96,7 +96,7 @@ No installation or build step is needed.
 
 1. Clone the repository:
    ```bash
-   [git clone https://github.com/rana-asad/portfolio.git](https://github.com/ranaasadullah/my-portfolio.git)
+   https://github.com/ranaasadullah/my-portfolio.git
    ```
 2. Open the project folder:
    ```bash
